@@ -1,3 +1,0 @@
-This directory should not be removed by R build tools, because otherwise the 
-compilation of libgensvm.a will fail. Adding this file is more robust than 
-requiring "--keep-empty-dirs".

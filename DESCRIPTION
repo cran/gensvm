@@ -1,10 +1,11 @@
 Package: gensvm
-Version: 0.1.0
+Version: 0.1.1
 Date: 2018-04-04
 Title: A Generalized Multiclass Support Vector Machine
 Authors@R: c(person("Gertjan", "van den Burg", role=c("aut", "cre"),
 			email="gertjanvandenburg@gmail.com"),
 		person("Patrick", "Groenen", email="groenen@ese.eur.nl", role="ctb"))
+Maintainer: Gertjan van den Burg <gertjanvandenburg@gmail.com>
 Description: The GenSVM classifier is a generalized multiclass support vector
 	machine (SVM). This classifier aims to find decision boundaries that
 	separate the classes with as wide a margin as possible. In GenSVM, the
@@ -26,9 +27,8 @@ URL: https://github.com/GjjvdBurg/RGenSVM
 BugReports: https://github.com/GjjvdBurg/RGenSVM
 RoxygenNote: 6.0.1
 NeedsCompilation: yes
-Packaged: 2018-04-18 13:45:54 UTC; gertjan
+Packaged: 2018-04-25 19:56:14 UTC; gertjan
 Author: Gertjan van den Burg [aut, cre],
   Patrick Groenen [ctb]
-Maintainer: Gertjan van den Burg <gertjanvandenburg@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-04-19 08:23:06 UTC
+Date/Publication: 2018-04-25 20:11:56 UTC
