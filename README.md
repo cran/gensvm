@@ -1,6 +1,10 @@
 GenSVM R Package
 ================
 
+<!-- badges: start -->
+[![Travis build status](https://travis-ci.org/GjjvdBurg/RGenSVM.svg?branch=master)](https://travis-ci.org/GjjvdBurg/RGenSVM)
+<!-- badges: end -->
+
 This package implements the GenSVM Multiclass Support Vector Machine 
 classifier in R.
 
@@ -75,7 +79,7 @@ Citing
 ------
 
 If you use GenSVM in your work, please cite the paper using the information 
-avialable through the following R command:
+available through the following R command:
 
 ```r
 > citation('gensvm')
@@ -83,16 +87,18 @@ avialable through the following R command:
 
 Alternatively, you can use the following BibTeX code directly:
 
-    @article{JMLR:v17:14-526,
-      author  = {Gerrit J.J. {van den Burg} and Patrick J.F. Groenen},
-      title   = {{GenSVM}: A Generalized Multiclass Support Vector Machine},
-      journal = {Journal of Machine Learning Research},
-      year    = {2016},
-      volume  = {17},
-      number  = {225},
-      pages   = {1-42},
-      url     = {http://jmlr.org/papers/v17/14-526.html}
-    }
+```bib
+@article{JMLR:v17:14-526,
+  author  = {Gerrit J.J. {van den Burg} and Patrick J.F. Groenen},
+  title   = {{GenSVM}: A Generalized Multiclass Support Vector Machine},
+  journal = {Journal of Machine Learning Research},
+  year    = {2016},
+  volume  = {17},
+  number  = {225},
+  pages   = {1-42},
+  url     = {http://jmlr.org/papers/v17/14-526.html}
+}
+```
 
 License
 -------
