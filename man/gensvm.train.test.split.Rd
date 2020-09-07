@@ -4,9 +4,15 @@
 \alias{gensvm.train.test.split}
 \title{Create a train/test split of a dataset}
 \usage{
-gensvm.train.test.split(x, y = NULL, train.size = NULL,
-  test.size = NULL, shuffle = TRUE, random.state = NULL,
-  return.idx = FALSE)
+gensvm.train.test.split(
+  x,
+  y = NULL,
+  train.size = NULL,
+  test.size = NULL,
+  shuffle = TRUE,
+  random.state = NULL,
+  return.idx = FALSE
+)
 }
 \arguments{
 \item{x}{array to split}
@@ -62,7 +68,7 @@ gensvm.accuracy(y.test, predict(fit, x.test))
 \references{
 Van den Burg, G.J.J. and Groenen, P.J.F. (2016). \emph{GenSVM: A Generalized 
 Multiclass Support Vector Machine}, Journal of Machine Learning Research, 
-17(225):1--42. URL \url{http://jmlr.org/papers/v17/14-526.html}.
+17(225):1--42. URL \url{https://jmlr.org/papers/v17/14-526.html}.
 }
 \seealso{
 \code{\link{gensvm}}, \code{\link{gensvm-package}}

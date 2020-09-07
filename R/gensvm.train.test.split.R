@@ -32,7 +32,7 @@
 #' @references
 #' Van den Burg, G.J.J. and Groenen, P.J.F. (2016). \emph{GenSVM: A Generalized 
 #' Multiclass Support Vector Machine}, Journal of Machine Learning Research, 
-#' 17(225):1--42. URL \url{http://jmlr.org/papers/v17/14-526.html}.
+#' 17(225):1--42. URL \url{https://jmlr.org/papers/v17/14-526.html}.
 #'
 #' @seealso
 #' \code{\link{gensvm}}, \code{\link{gensvm-package}}
@@ -60,8 +60,7 @@ gensvm.train.test.split <- function(x, y=NULL, train.size=NULL, test.size=NULL,
                                     return.idx=FALSE)
 {
     if (!is.null(y) && dim(as.matrix(x))[1] != dim(as.matrix(y))[1]) {
-        cat("Error: First dimension of x and y should be equal.\n")
-        return
+        stop("Error: First dimension of x and y should be equal.\n")
     }
 
     n.objects <- dim(as.matrix(x))[1]

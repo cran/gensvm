@@ -19,7 +19,7 @@
 #' @references
 #' Van den Burg, G.J.J. and Groenen, P.J.F. (2016). \emph{GenSVM: A Generalized 
 #' Multiclass Support Vector Machine}, Journal of Machine Learning Research, 
-#' 17(225):1--42. URL \url{http://jmlr.org/papers/v17/14-526.html}.
+#' 17(225):1--42. URL \url{https://jmlr.org/papers/v17/14-526.html}.
 #'
 #' @seealso
 #' \code{\link{plot.gensvm}}, \code{\link{predict.gensvm.grid}}, 
@@ -61,9 +61,7 @@ predict.gensvm <- function(object, newdata, add.rownames=FALSE, ...)
 
     # Sanity check
     if (ncol(x.test) != object$n.features) {
-        cat("Error: Number of features of fitted model and testing",
-            "data disagree.\n")
-        return(invisible(NULL))
+        stop("Error: Number of features of fitted model and testing data disagree.\n")
     }
 
     x.train <- eval.parent(object$call$x)

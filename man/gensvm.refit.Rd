@@ -4,10 +4,24 @@
 \alias{gensvm.refit}
 \title{Train an already fitted model on new data}
 \usage{
-gensvm.refit(fit, x, y, p = NULL, lambda = NULL, kappa = NULL,
-  epsilon = NULL, weights = NULL, kernel = NULL, gamma = NULL,
-  coef = NULL, degree = NULL, kernel.eigen.cutoff = NULL,
-  max.iter = NULL, verbose = NULL, random.seed = NULL)
+gensvm.refit(
+  fit,
+  x,
+  y,
+  p = NULL,
+  lambda = NULL,
+  kappa = NULL,
+  epsilon = NULL,
+  weights = NULL,
+  kernel = NULL,
+  gamma = NULL,
+  coef = NULL,
+  degree = NULL,
+  kernel.eigen.cutoff = NULL,
+  max.iter = NULL,
+  verbose = NULL,
+  random.seed = NULL
+)
 }
 \arguments{
 \item{fit}{Fitted \code{gensvm} object}
@@ -93,7 +107,7 @@ fit2 <- gensvm.refit(fit1, x2, y2)
 \references{
 Van den Burg, G.J.J. and Groenen, P.J.F. (2016). \emph{GenSVM: A Generalized 
 Multiclass Support Vector Machine}, Journal of Machine Learning Research, 
-17(225):1--42. URL \url{http://jmlr.org/papers/v17/14-526.html}.
+17(225):1--42. URL \url{https://jmlr.org/papers/v17/14-526.html}.
 }
 \seealso{
 \code{\link{gensvm}}, \code{\link{gensvm-package}}

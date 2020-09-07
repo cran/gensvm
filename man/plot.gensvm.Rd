@@ -4,9 +4,18 @@
 \alias{plot.gensvm}
 \title{Plot the simplex space of the fitted GenSVM model}
 \usage{
-\method{plot}{gensvm}(x, labels, newdata = NULL, with.margins = TRUE,
-  with.shading = TRUE, with.legend = TRUE, center.plot = TRUE,
-  xlim = NULL, ylim = NULL, ...)
+\method{plot}{gensvm}(
+  x,
+  labels,
+  newdata = NULL,
+  with.margins = TRUE,
+  with.shading = TRUE,
+  with.legend = TRUE,
+  center.plot = TRUE,
+  xlim = NULL,
+  ylim = NULL,
+  ...
+)
 }
 \arguments{
 \item{x}{A fitted \code{gensvm} object}
@@ -73,7 +82,7 @@ plot(fit)
 \references{
 Van den Burg, G.J.J. and Groenen, P.J.F. (2016). \emph{GenSVM: A Generalized 
 Multiclass Support Vector Machine}, Journal of Machine Learning Research, 
-17(225):1--42. URL \url{http://jmlr.org/papers/v17/14-526.html}.
+17(225):1--42. URL \url{https://jmlr.org/papers/v17/14-526.html}.
 }
 \seealso{
 \code{\link{plot.gensvm.grid}}, \code{\link{predict.gensvm}}, 
