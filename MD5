@@ -1,6 +1,6 @@
-4c44ceea560c7a771153e29b7a590218 *DESCRIPTION
+13d3ea9592fd3533eb6a4c13cac6f1ec *DESCRIPTION
 61ad302dc3f9465688bdf51cda724e55 *NAMESPACE
-b23a85cd20e19f37214b3649b5713a45 *NEWS.md
+f7e6a98340df1c8ced051ee671d436ba *NEWS.md
 fa12f9e1d93aa5fcfa126b0f5ba5ef8d *R/coef.gensvm.R
 a97dbd0c7e72d99c57e98d543f235952 *R/coef.gensvm.grid.R
 c0e8d60278016931cbf736c23ecb87d5 *R/fitted.gensvm.R
@@ -91,7 +91,7 @@ e7a7597192c1fcccf2a9b3c84f6b3d4c *src/gensvm/src/gensvm_cross_validation.c
 1191b5bf7833bf2e9fbad51c7820dd93 *src/gensvm/src/gensvm_gridsearch.c
 34c42bf69258f3c575f66671cdd032c0 *src/gensvm/src/gensvm_init.c
 71496bc66dbc2caf0f3a17de8523f4c8 *src/gensvm/src/gensvm_io.c
-6bfb1095602784acec8ce9d03f96c056 *src/gensvm/src/gensvm_kernel.c
+c9e5dee9c1da92fbbab646e66f54653a *src/gensvm/src/gensvm_kernel.c
 57ec10f50bc6c2e1e92a484bb9d89d61 *src/gensvm/src/gensvm_memory.c
 e1a4b930256e12ed7c342f419637d5ad *src/gensvm/src/gensvm_optimize.c
 92abe48efe331e017b252993905b4d5f *src/gensvm/src/gensvm_predict.c
