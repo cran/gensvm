@@ -1,6 +1,6 @@
-13d3ea9592fd3533eb6a4c13cac6f1ec *DESCRIPTION
+a7199bfbfe17e78ed48eb940d06a94a5 *DESCRIPTION
 61ad302dc3f9465688bdf51cda724e55 *NAMESPACE
-f7e6a98340df1c8ced051ee671d436ba *NEWS.md
+09e0b98471ababbc81ebaa4fcb5dc0be *NEWS.md
 fa12f9e1d93aa5fcfa126b0f5ba5ef8d *R/coef.gensvm.R
 a97dbd0c7e72d99c57e98d543f235952 *R/coef.gensvm.grid.R
 c0e8d60278016931cbf736c23ecb87d5 *R/fitted.gensvm.R
@@ -19,7 +19,7 @@ a83ee3b06f20db5f4e8f5fac0d057069 *R/predict.gensvm.R
 719eff9172defcf839bddee7e16bbad2 *R/print.gensvm.R
 97e464553d5c7398cae3820b2fa80eb0 *R/print.gensvm.grid.R
 393a927ecefe4a15147305b903e3b7b6 *R/validate.R
-73a1df388e270b2e7056fe8fd6b9aef4 *README.md
+6e1d8df8ac9ecd2fe57cf565b3002d7b *README.md
 3e671b1a6b70151f07167566bfed820d *inst/CITATION
 5cd0595d1c859db87a6a3c554ccfd67f *man/coef.gensvm.Rd
 7bb23be75bae8206e6f1011b8d43198c *man/coef.gensvm.grid.Rd
@@ -91,7 +91,7 @@ e7a7597192c1fcccf2a9b3c84f6b3d4c *src/gensvm/src/gensvm_cross_validation.c
 1191b5bf7833bf2e9fbad51c7820dd93 *src/gensvm/src/gensvm_gridsearch.c
 34c42bf69258f3c575f66671cdd032c0 *src/gensvm/src/gensvm_init.c
 71496bc66dbc2caf0f3a17de8523f4c8 *src/gensvm/src/gensvm_io.c
-c9e5dee9c1da92fbbab646e66f54653a *src/gensvm/src/gensvm_kernel.c
+702ce95e598f1f99b068727f4eb1f073 *src/gensvm/src/gensvm_kernel.c
 57ec10f50bc6c2e1e92a484bb9d89d61 *src/gensvm/src/gensvm_memory.c
 e1a4b930256e12ed7c342f419637d5ad *src/gensvm/src/gensvm_optimize.c
 92abe48efe331e017b252993905b4d5f *src/gensvm/src/gensvm_predict.c
@@ -106,6 +106,6 @@ dbe6c807d91b12d69bacd26e8bd0f789 *src/gensvm/src/gensvm_simplex.c
 866bfde66ed0759b4aa396d26e75daec *src/gensvm/src/gensvm_task.c
 614a14227d08ede7de0f3d8c0553a8ea *src/gensvm/src/gensvm_timer.c
 b3ab0ff2fd3d010bde698fe73003c853 *src/gensvm/src/gensvm_train.c
-1be3755c1332b90775377c3143fa413a *src/gensvm/src/gensvm_update.c
-715ac3437a80c6f28ce94265fe8e51de *src/gensvm/src/gensvm_zv.c
+e9f1fc9ba2cafb4d1715bef1871cbcf2 *src/gensvm/src/gensvm_update.c
+81fe4ff2cc9c32bbd52b3c4875e7ad36 *src/gensvm/src/gensvm_zv.c
 492c9bf70e4566eb6324fe523f7ceb22 *src/gensvm_wrapper.c

@@ -2,13 +2,14 @@ GenSVM R Package
 ================
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/GjjvdBurg/RGenSVM.svg?branch=master)](https://travis-ci.org/GjjvdBurg/RGenSVM)
+[![build](https://github.com/GjjvdBurg/RGenSVM/actions/workflows/build.yml/badge.svg)](https://github.com/GjjvdBurg/RGenSVM/actions/workflows/build.yml)
 <!-- badges: end -->
 
-This package implements the GenSVM Multiclass Support Vector Machine 
-classifier in R.
+This package implements the [GenSVM Multiclass Support Vector 
+Machine](https://jmlr.org/papers/v17/14-526.html) classifier in R.
 
-![Pretty picture](https://raw.githubusercontent.com/GjjvdBurg/RGenSVM/1f30df8d941d30ab546421bc56c92c9fa9cf8a59/.image.png)
+![Illustration of fitting GenSVM with an RBF kernel on the iris 
+dataset](https://raw.githubusercontent.com/GjjvdBurg/RGenSVM/1f30df8d941d30ab546421bc56c92c9fa9cf8a59/.image.png)
 
 ```r
 # Plot created with:
@@ -60,7 +61,7 @@ The main GenSVM functions are:
 * `gensvm` : Fit a GenSVM model for specific model parameters.
 * `gensvm.grid` : Run a cross-validated grid search for GenSVM.
 
-Both these functions return S3 objects that for which `plot` and `predict` 
+Both these functions return S3 objects for which `plot` and `predict` 
 functions are available. For the GenSVMGrid object the function is applied to 
 the best model found during training. For both of these objects a `coef` 
 function is also available.
